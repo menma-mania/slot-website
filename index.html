@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>パスワード保護ページ</title>
+</head>
+<body>
+    <h1>パスワード保護ページ</h1>
+    <form action="toc.html" method="post" onsubmit="return checkPassword()">
+        <label for="password">パスワード:</label>
+        <input type="password" id="password" name="password">
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        function checkPassword() {
+            var password = document.getElementById('password').value;
+            if (password === 'menmania') {
+                return true;
+            } else {
+                alert('パスワードが違います。');
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

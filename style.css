@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin-right: 10px;
+}
+form {
+    margin: 20px 0;
+}
+label {
+    margin-right: 10px;
+}
