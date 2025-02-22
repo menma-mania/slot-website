@@ -38,6 +38,10 @@ ul li div {
 
 /* モバイルデバイス用のスタイル */
 @media (max-width: 600px) {
+    body {
+        background-color: #E6E6FA; /* 再度薄紫色に設定 */
+    }
+
     ul {
         justify-content: space-between;
     }
