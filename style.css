@@ -12,7 +12,7 @@ ul {
 
 ul li {
     margin: 10px;
-    flex: 1 0 25%; /* 各項目が横に3つ並ぶように設定 */
+    flex: 1 0 30%; /* 各項目が横に3つ並ぶように設定 */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@ ul li div {
     }
 
     ul li {
-        flex: 1 0 20%; /* 横に3つ並ぶように設定 */
+        flex: 1 0 5%; /* 横に3つ並ぶように設定 */
         margin: 10px;
     }
 }
