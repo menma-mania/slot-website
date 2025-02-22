@@ -7,12 +7,12 @@ ul {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* 項目を均等に配置 */
+    justify-content: space-between;
 }
 
 ul li {
     margin: 10px;
-    flex: 1 0 30%; /* 各項目が横に3つ並ぶように設定 */
+    flex: 1 0 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,11 +35,11 @@ ul li div {
 /* モバイルデバイス用のスタイル */
 @media (max-width: 600px) {
     ul {
-        justify-content: space-around; /* 項目を均等に配置 */
+        justify-content: space-between;
     }
 
     ul li {
-        flex: 1 0 5%; /* 横に3つ並ぶように設定 */
+        flex: 1 0 30%;
         margin: 10px;
     }
 }
