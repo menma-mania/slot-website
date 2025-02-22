@@ -1,13 +1,18 @@
+h1 {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; /* 必要に応じて複数行に表示させる場合 */
+    flex-wrap: wrap;
+    justify-content: space-between; /* 項目を均等に配置 */
 }
 
 ul li {
-    margin: 20px;
-    flex: 1 0 200px; /* 各項目が同じ幅を持つように設定 */
+    margin: 10px;
+    flex: 1 0 30%; /* 各項目が横に3つ並ぶように設定 */
     display: flex;
     flex-direction: column;
     align-items: center;
