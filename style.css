@@ -1,9 +1,9 @@
-h1 {
-    text-align: center;
-}
-
 body {
     background-color: #E6E6FA; /* 薄紫色に設定 */
+}
+
+h1 {
+    text-align: center;
 }
 
 ul {
