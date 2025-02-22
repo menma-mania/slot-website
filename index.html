@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>パスワード保護ページ</h1>
-    <form action="toc.html" method="post" onsubmit="return checkPassword()">
+    <form onsubmit="return checkPassword()">
         <label for="password">パスワード:</label>
         <input type="password" id="password" name="password">
         <input type="submit" value="Submit">
@@ -17,7 +17,8 @@
         function checkPassword() {
             var password = document.getElementById('password').value;
             if (password === 'menmania') {
-                return true;
+                window.location.href = 'tos.html'; // パスワードが正しければtos.htmlにリダイレクト
+                return false;
             } else {
                 alert('パスワードが違います。');
                 return false;
@@ -26,3 +27,4 @@
     </script>
 </body>
 </html>
+
