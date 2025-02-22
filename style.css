@@ -35,11 +35,11 @@ ul li div {
 /* モバイルデバイス用のスタイル */
 @media (max-width: 600px) {
     ul {
-        flex-direction: column; /* 列方向に並べる */
+        justify-content: space-around; /* 項目を均等に配置 */
     }
 
     ul li {
-        flex: 1 0 100%; /* 各項目を100%幅に設定 */
-        margin: 10px 0; /* 上下のマージンを追加 */
+        flex: 1 0 30%; /* 横に3つ並ぶように設定 */
+        margin: 10px;
     }
 }
